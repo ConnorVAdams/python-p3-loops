@@ -10,13 +10,13 @@ def happy_new_year():
 happy_new_year()
 
 def square_integers(int_list):
-    return [num * 2 for num in int_list]
+    return [num * num for num in int_list]
 
 ints = square_integers([1, 2, 3, 4, 5])
 print(ints)
 
 def fizzbuzz():
-    i = 0
+    i = 1
     while i <= 100:
         if i % 3 == 0 and i % 5 == 0:
             print('FizzBuzz')
